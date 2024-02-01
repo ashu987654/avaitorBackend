@@ -28,7 +28,7 @@ if (!MONGODB_USERNAME || !MONGODB_PASSWORD || !MONGODB_DBNAME) {
   process.exit(1); // Exit the application if MongoDB URI is not defined
 }
 
-const MONGODB_URI = `mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@cluster0.kuo0csq.mongodb.net/${MONGODB_DBNAME}?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@cluster0.zwwed4z.mongodb.net/${MONGODB_DBNAME}?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
